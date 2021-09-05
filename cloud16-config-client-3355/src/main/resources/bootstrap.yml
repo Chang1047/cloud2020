@@ -14,6 +14,12 @@ spring:
       uri: http://localhost:3344
       #这四个整合在一起的意思是:客户端会读取http://localhost:3344/master/config-dev.yml上面的配置文件
 
+  #rabbitmq相关配置，15672是web管理界面的端口; 5672是MQ访问的端口
+  rabbitmq:
+     host: localhost
+     port: 5672
+     username: guest
+     password: guest
 
 #服务注册到eureka地址
 eureka:

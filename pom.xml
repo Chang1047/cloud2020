@@ -25,6 +25,9 @@
         <module>cloud14_gateway9527</module>
         <module>cloud15-config-3344</module>
         <module>cloud16-config-client-3355</module>
+        <module>cloud17-config-client-3366</module>
+        <module>cloud18-stream-rabbitmq-provider8801</module>
+        <module>cloud19-stream-rabbitmq-consumer8802</module>
     </modules>
     <packaging>pom</packaging><!--pom总的父工程-->
     <name>Maven</name>
