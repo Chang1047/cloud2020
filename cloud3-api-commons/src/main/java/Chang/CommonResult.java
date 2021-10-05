@@ -1,4 +1,4 @@
-package Chang.entities;
+package Chang;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

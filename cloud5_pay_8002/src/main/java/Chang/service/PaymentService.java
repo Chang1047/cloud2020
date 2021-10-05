@@ -1,6 +1,6 @@
 package Chang.service;
 
-import Chang.entities.Payment;
+import Chang.Payment;
 import org.apache.ibatis.annotations.Param;
 
 public interface PaymentService {

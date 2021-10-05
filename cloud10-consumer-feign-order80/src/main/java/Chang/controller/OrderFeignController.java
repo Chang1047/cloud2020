@@ -1,7 +1,7 @@
 package Chang.controller;
 
-import Chang.entities.CommonResult;
-import Chang.entities.Payment;
+import Chang.CommonResult;
+import Chang.Payment;
 import Chang.service.PaymentFeignService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.GetMapping;

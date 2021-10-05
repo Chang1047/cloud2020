@@ -1,7 +1,7 @@
 package Chang.service;
 
 import Chang.dao.PaymentDao;
-import Chang.entities.Payment;
+import Chang.Payment;
 
 import org.springframework.stereotype.Service;
 

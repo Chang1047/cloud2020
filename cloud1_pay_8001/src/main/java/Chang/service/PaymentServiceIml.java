@@ -1,7 +1,7 @@
 package Chang.service;
 
 import Chang.dao.PaymentDao;
-import Chang.entities.Payment;
+import Chang.Payment;
 
 import org.springframework.stereotype.Service;
 
@@ -15,7 +15,8 @@ public class PaymentServiceIml  implements  PaymentService{
     private  PaymentDao paymentDao;
 
     public int create(Payment payment){
-       return paymentDao.create(payment);
+
+        return paymentDao.create(payment);
     }
 
     public Payment getPaymentById( Long id){

@@ -1,6 +1,6 @@
 package Chang.dao;
 
-import Chang.entities.Payment;
+import Chang.Payment;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Param;
 @Mapper

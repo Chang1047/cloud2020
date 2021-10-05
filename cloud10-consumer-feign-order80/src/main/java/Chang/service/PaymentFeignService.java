@@ -1,7 +1,7 @@
 package Chang.service;
 
-import Chang.entities.CommonResult;
-import Chang.entities.Payment;
+import Chang.CommonResult;
+import Chang.Payment;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.GetMapping;
